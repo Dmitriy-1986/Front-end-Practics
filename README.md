@@ -1,4 +1,4 @@
-<a href="https://dmitriy-1986.github.io/JavaScript-practics/">JavaScript-practics</a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics">Repositories</a>
+# <a href="https://dmitriy-1986.github.io/JavaScript-practics/">JavaScript-practics</a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics">Repositories</a>
 ---
 Links:
 
