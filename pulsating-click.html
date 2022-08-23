@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: #f6f5f5;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #636464;
+            margin: 10px;
+        }
+
+        #container {
+            max-width: 1100px;
+            min-height: calc(100vh);
+            margin: 0 auto;
+            border-left: 1px solid #e2e2e2;
+            border-right: 1px solid #e2e2e2;
+            background: white;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block {
+            padding: 10px;
+            color: #212529;
+            width: 100%;
+        }
+
+        /* Button animation CSS */
+        .btn {
+            position: relative;
+            transition: .5s;
+            overflow: hidden;
+            background: rgb(0, 146, 209);
+            color: white;
+            font-weight: bold;
+            padding: 10px 30px;
+            border: 2px solid rgb(1, 96, 155);
+        }
+
+        .btn:hover,
+        .btn:active {
+            color: rgb(0, 146, 209);
+            background: white;
+        }
+
+        .pulse {
+            background: aqua;
+            border-radius: 50%;
+            animation: pulse .7s ease-out;
+            transform: scale(0);
+            position: absolute;
+        }
+
+        @keyframes pulse {
+            to {
+                transform: scale(2);
+                background-color: #fff;
+                opacity: 0;
+            }
+        }
+
+        /* //Button animation CSS */
+    </style>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div class="col">
+            <div class="row">
+                <div class="block">
+                    <!-- Button animation CSS -->
+                    <button class="btn">BUTTON</button>
+                    <!-- //Button animation CSS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* JavaScript */
+        let button = document.querySelector('.btn');
+        button.addEventListener('click', (e) => {
+            let addDiv = document.createElement('div'),
+                mValue = Math.max(button.clientWidth, button.clientHeight),
+                rect = button.getBoundingClientRect(),
+                sDiv = addDiv.style,
+                px = 'px';
+
+            sDiv.width = sDiv.height = mValue + px;
+            sDiv.left = e.clientX - rect.left - (mValue / 2) + px;
+            sDiv.top = e.clientY - rect.top - (mValue / 2) + px;
+
+            addDiv.classList.add('pulse');
+            button.appendChild(addDiv);
+        });
+    </script>
+</body>
+
+</html>
