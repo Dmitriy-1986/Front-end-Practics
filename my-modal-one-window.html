@@ -49,7 +49,7 @@
             padding: 30px;
             overflow-y: auto;
             overflow-x: hidden;
-            
+
             /* transform: perspective(600px) translate(0px, -100%) rotateX(45deg); */
         }
 
@@ -84,13 +84,14 @@
 
 <body>
     <button id="btnPopup">Popup number: One</button>
+
     <div id="popup" class="popup">
         <div class="popup-body">
             <div class="popup-content">
-                <div class="popup-fix">
-                    <div id="close" class="popup-close">&#x2716;</div>
-                    <div class="popup-title">Modal window #1</div>
-                </div>
+
+                <div id="close" class="popup-close">&#x2716;</div>
+                <div class="popup-title">Modal window #1</div>
+
                 <div class="popup-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolores facilis ad, et qui natus
                     quisquam animi consectetur repellat eum atque molestias. Eum quibusdam enim cum commodi adipisci
@@ -324,6 +325,7 @@
         const btnPopup = document.querySelector('#btnPopup');
         const popupClose = document.querySelector('#close');
         const popup = document.querySelector('#popup');
+        const popupBody = document.querySelector('.popup-body');
 
         btnPopup.addEventListener('click', () => {
             popup.classList.add('open');
@@ -335,6 +337,13 @@
             document.body.style.overflow = 'auto';
         })
 
+        popupBody.addEventListener('click', (e) => {
+            popup.classList.remove('open');
+        });
+
+        document.querySelector('.popup-body .popup-content').addEventListener('click', e => {
+            e.stopPropagation();
+        });
     </script>
 </body>
 
