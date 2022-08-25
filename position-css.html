@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .block {
+            width: 100%;
+            height: calc(50vh - 16px);
+        }
+
+        .black {
+            background-color: #000000;
+            border: 1px solid black;
+        }
+
+        .white {
+            background-color: #ffffff;
+            border: 1px solid black;
+        }
+
+        .positioned {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 45%;
+            left: 45%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block black"></div>
+        <div class="block white"></div>
+        <div class="positioned"></div>
+    </div>
+
+</body>
+
+</html>
