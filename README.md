@@ -18,9 +18,10 @@ Links:
 
 > <a href="https://dmitriy-1986.github.io/JavaScript-practics/scroll-snap-css.html">scroll-snap-css</a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/scroll-snap-css.html">Code</a>
 
-<!--
-> <a href="https://dmitriy-1986.github.io/JavaScript-practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/ ... ">Code</a>
 
+> <a href="https://dmitriy-1986.github.io/JavaScript-practics/gallery-hover.html"> gallery-hover </a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/gallery-hover.html">Code</a>
+
+<!--
 > <a href="https://dmitriy-1986.github.io/JavaScript-practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/ ... ">Code</a>
 
 > <a href="https://dmitriy-1986.github.io/JavaScript-practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/ ... ">Code</a>
