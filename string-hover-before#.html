@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>   
+           .link {
+             transform: translateX(-0.75em);
+             transition: transform 200ms;
+           }
+           
+           .link:before {
+             content: '#';
+             display: inline-block;
+             width: 0.75em;
+             color: #888888;
+             opacity: 0;
+             transition: opacity 200ms;
+           }
+           
+           .link:hover {
+             transform: none;
+           }
+           
+           .link:hover:before {
+             opacity:1;
+           }
+    </style>
+</head>
+
+<body>
+    
+    
+    <p class="link">
+       Hello 
+    </p>
+    
+    
+<script>
+
+</script>
+
+
+</body>
+
+</html>
