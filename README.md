@@ -24,7 +24,7 @@ Links:
 > <a href="https://dmitriy-1986.github.io/JavaScript-practics/image-hover-effect.html">image-hover-effect</a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/image-hover-effect.html">Code</a>
 
 <!--
-> <a href="https://dmitriy-1986.github.io/JavaScript-practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/ ... ">Code</a>
+> <a href="https://dmitriy-1986.github.io/JavaScript-practics/string-hover-before#.html">string-hover-before#</a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/string-hover-before#.html">Code</a>
 
 > <a href="https://dmitriy-1986.github.io/JavaScript-practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/JavaScript-practics/blob/main/ ... ">Code</a>
 
