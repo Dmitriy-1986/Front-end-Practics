@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 100vh;
+            background-color: navy;
+        }
+
+        .card {
+            perspective: 500px;
+            transform-style: preserve-3d;
+        }
+
+        .card-item {
+            cursor: pointer;
+            border-radius: 10px;
+            background: linear-gradient(45deg, deepskyblue, deeppink);
+            width: 250px;
+            height: 250px;
+            transition: transform 0.1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-item"></div>
+        </div>
+        <div class="card">
+            <div class="card-item"></div>
+        </div>
+        <div class="card">
+            <div class="card-item"></div>
+        </div>
+    </div>
+
+
+    <script>
+        const cards = document.querySelectorAll('.card');
+
+        for (let i = 0; i < cards.length; i++) {
+            const card = cards[i];
+            card.addEventListener('mousemove', rotate);
+            card.addEventListener('mouseout', stopRotate);
+        }
+
+        function rotate(e) {
+            const el = this.querySelector('.card-item');
+            const height = el.clientHeight;
+            const width = el.clientWidth;
+            const xVal = e.layerX;
+            const yVal = e.layerY;
+            const yRotation = 20 * ((xVal - width / 2) / width);
+            const xRotation = -20 * ((yVal - height / 2) / height);
+            const string = 'rotateX(' + xRotation + 'deg) rotateY(' + yRotation + 'deg)';
+            el.style.transform = string;
+        }
+
+        function stopRotate() {
+            const cardItem = this.querySelector('.card-item');
+            cardItem.style.transform = 'rotateX(0) rotateY(0)';
+        }
+    </script>
+</body>
+
+</html>
