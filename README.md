@@ -29,9 +29,9 @@ Links:
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/text-video-background.html">text-video-background</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/text-video-background.html">Code</a>
 
-<!--
-> <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
+> <a href="https://dmitriy-1986.github.io/Front-end-Practics/3d-effect-card-hover.html">3d-effect-card-hover</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/3d-effect-card-hover.html">Code</a>
 
+<!--
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
