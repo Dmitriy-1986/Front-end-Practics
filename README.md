@@ -33,9 +33,9 @@ Links:
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/rotating-animation-css.html">rotating-animation-css</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/rotating-animation-css.html">Code</a>
 
-<!--
-> <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
+> <a href="https://dmitriy-1986.github.io/Front-end-Practics/bootstrap-btn-light.html">bootstrap-btn-light</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/bootstrap-btn-light.html">Code</a>
 
+<!--
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
