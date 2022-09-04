@@ -35,9 +35,9 @@ Links:
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/bootstrap-btn-light.html">bootstrap-btn-light</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/bootstrap-btn-light.html">Code</a>
 
-<!--
-> <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
+> <a href="https://dmitriy-1986.github.io/Front-end-Practics/btn-border-anime.html">btn-border-anime</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/btn-border-anime.html">Code</a>
 
+<!--
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
