@@ -31,9 +31,9 @@ Links:
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/3d-effect-card-hover.html">3d-effect-card-hover</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/3d-effect-card-hover.html">Code</a>
 
-<!--
-> <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
+> <a href="https://dmitriy-1986.github.io/Front-end-Practics/rotating-animation-css.html">rotating-animation-css</a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/rotating-animation-css.html">Code</a>
 
+<!--
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
 
 > <a href="https://dmitriy-1986.github.io/Front-end-Practics/ ..."> ... </a> | <a href="https://github.com/Dmitriy-1986/Front-end-Practics/blob/main/ ... ">Code</a>
