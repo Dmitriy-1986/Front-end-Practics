@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en"> 
+<head> <meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+
+<style> 
+ .p {
+   position: relative;
+   font-family: sans-serif;
+   color: blue;
+   font-size: 52px;
+ }
+
+.p:after {
+  content: 'Lorem ipsum dolor amite anet do net...';
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  font-size: 28pt;
+  background-color: yellow;
+  color: #2e2e2e;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 500ms transform 500ms;
+}
+
+.p:is(:hover, :focus)::after {
+  opacity: 1;
+  transform: translateY(70px);
+}
+</style> 
+
+</head> 
+
+<body> 
+
+
+<p id="paragraph" class="p">
+Lorem ipsum
+</p>
+
+<script> 
+
+
+</script> 
+
+</body> 
+
+</html>
+
+
+
+
+
