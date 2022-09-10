@@ -30,21 +30,34 @@
     }
     
     .box-1 {
-      order: 3;
       background: violet;
       color: aqua;
     }
     
+    .order {
+      order: 3;
+    }
     </style>
 </head>
 
 <body>
 
 <div class="conteiner">
-  <div class="p-2 m-5 b-solid-1 box-1">1</div>
+  <div class="p-2 m-5 b-solid-1 box-1 order">1</div>
   <div class="p-2 m-5 b-solid-1 box-2">2</div>
   <div class="p-2 m-5 b-solid-1 box-3">3</div>
 </div>
+
+<script>
+const boxOne = document.querySelector('#boxOne');
+
+boxOne.addEventListener('click', () => {
+   document.querySelector('.order').style.order = "initial";
+boxOne.style.color = "black";
+boxOne.style.background = "white";   
+});
+
+</script>
 
 </body>
 
